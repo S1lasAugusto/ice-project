@@ -1,0 +1,3 @@
+<scorer> ::= <embedding>:<architecture>
+<embedding> ::= glove | fast_text | word2vec
+<architecture> ::= lstm | gru | simplernn

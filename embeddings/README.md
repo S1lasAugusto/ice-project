@@ -1,0 +1,1 @@
+Coloque os embeddings baixados aqui

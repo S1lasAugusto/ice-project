@@ -13,11 +13,11 @@ Além disso, você também precisará do dataset para análise de texto. Você p
 
 ## Configuração do Projeto
 
-Após baixar os embeddings e o dataset, coloque-os na pasta do projeto.
+Após baixar os embeddings e o dataset, coloque-os na pasta **./embeddings**.
 
 ## Executando o Projeto
 
-Certifique-se de que os embeddings estão na pasta do projeto e execute os scripts Python fornecidos.
+Certifique-se de que os embeddings estão na pasta **./embeddings** e execute os scripts Python fornecidos.
 
 ```bash
 CE2VA_model.ipynb
