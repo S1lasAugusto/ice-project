@@ -1,0 +1,17 @@
+GRAMMAR_FILE:           ../../grammars/scorer.bnf
+FITNESS_FUNCTION:       scorer_fitness
+INITIALISATION:         uniform_tree
+GENERATIONS:            10
+POPULATION_SIZE:        5
+CROSSOVER_PROBABILITY:  0.75
+MUTATION:               subtree
+MUTATION_EVENTS         1
+ELITE_SIZE:  		    1
+SELECTION:              tournament
+CACHE                   True
+MUTATE_DUPLICATES       True
+MULTICORE               True
+TOURNAMENT_SIZE:        2
+REPLACEMENT:            generational
+DATASET_TRAIN:          ../../datasets/training_set_rel3.tsv
+EMBEDDINGS_PATH:        ../../embeddings/
